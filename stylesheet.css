@@ -1,0 +1,19 @@
+body {
+    background-color: #4de375;
+}
+
+h1 {
+    text-align: center;
+    font: sans-serif; color: #ffff; font-size: 3.5vw;
+}
+
+.box1 {
+    position: relative;
+    background-color: #fff;
+    width: 10vw;
+    height: 10vw;
+    border: solid 3px black;
+    margin: 2.8vh;
+    top: 5vh;
+    left: 2vw;
+}
