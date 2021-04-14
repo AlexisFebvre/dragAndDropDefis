@@ -7,13 +7,26 @@ h1 {
     font: sans-serif; color: #ffff; font-size: 3.5vw;
 }
 
-.box1 {
-    position: relative;
+.box1, .box2{
     background-color: #fff;
+    border: solid 0.4vh black;
+
+}
+
+.box1 {
+    margin: 2.8vh;
+    
+    left: 2vw;
     width: 10vw;
     height: 10vw;
-    border: solid 3px black;
-    margin: 2.8vh;
-    top: 5vh;
-    left: 2vw;
+    position: relative;
+}
+
+.box2 {
+    position: relative;
+    left: 75vw;
+    top: -50vh;
+    height: 15vw;
+    width: 15vw;
+
 }
