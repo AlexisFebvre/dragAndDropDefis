@@ -1,6 +1,23 @@
-body {
+#pinkBody {
+    transition: 450ms;
+    background-color: #FC9090;
+}
+
+#purpleBody {
+    transition: 450ms;
+    background-color: #9E90FC;
+}
+
+#blueBody {
+    transition: 450ms;
+    background-color: #90ECFC;
+}
+
+#greenBody {
+    transition: 250ms;
     background-color: #4de375;
 }
+
 
 h1 {
     text-align: center;
@@ -23,6 +40,7 @@ h1 {
 }
 
 .box2 {
+    transition: 150ms;
     position: relative;
     left: 75vw;
     top: -50vh;
@@ -30,3 +48,66 @@ h1 {
     width: 15vw;
 
 }
+
+.color {
+    width: 9vw;
+    height: 9vw;
+    position: relative;
+    top: 1vh;
+    left: 0.5vw;
+    cursor: grab;
+}
+
+.color:active {
+    cursor: grabbing;
+}
+
+#c1 {
+    background-color: #9E90FC;
+}
+
+#c2 {
+    background-color: #90ECFC;
+}
+
+#c3 {
+    background-color: #FC9090;
+}
+
+.colorChange {
+    height: 14vw;
+    width: 14vw;
+    position: relative;
+    top: 1vh;
+    left: 1vh;
+    opacity: 0.7; 
+}
+
+.tenu {
+    transition: 150ms;
+}
+
+#colorChangeBase {
+    transition: 150ms;
+    opacity: 0.7;
+    background-color: #4de375;
+}
+
+#colorChangeBlue {
+    transition: 150ms;
+    opacity: 0.7;
+    background-color: #90ECFC;
+}
+
+#colorChangePink {
+    transition: 150ms;
+    opacity: 0.7;
+    background-color: #FC9090;
+}
+
+#colorChangePurple {
+    transition: 150ms;
+    opacity: 0.7;
+    background-color: #9E90FC;
+}
+
